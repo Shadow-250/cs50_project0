@@ -1,0 +1,77 @@
+/* must use at least five different CSS properties, 
+and at least five different types of CSS selectors. */
+
+h3, h4 {
+    display: block;
+    color: #ba0615;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* using the class selector */
+.guitar-list li {
+    display: block; position: relative;
+    padding: 2px 0px 8px 40px ;
+}
+
+.guitar-list li:before {
+    content: ' ';
+    display: block;
+    background: url('images/guitar-icon.png') no-repeat 0 0;
+    height: 16px; width: 35px;
+    position: absolute; top: 5px; left: 0px;
+}
+
+/* Using the Id selector */
+#band {
+    display: block;
+    padding: 15px 15px 0px 15px;
+    
+}
+
+#band a:hover {
+    color: #ba0615;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#clojure h3{
+    color: limegreen;
+}
+
+#clojure a:hover {
+    color: limegreen;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 992px wide or less, remains two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

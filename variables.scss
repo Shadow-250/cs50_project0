@@ -1,0 +1,17 @@
+$bgcolor: #393D41;
+$color: #ddd;
+
+%rodape {
+    font-family: Arial, Helvetica, sans-serif;
+    background: $bgcolor;
+    text-align: center;
+}
+
+.footer {
+    @extend %rodape;
+    
+    span {
+        color: $color;
+    }
+}
+
