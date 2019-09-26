@@ -15,4 +15,4 @@ It has 4 html pages and 2 stylesheet files.
 
 <variables.css>
 
-<img src="tree.png">
+<img src="images/tree.png">
