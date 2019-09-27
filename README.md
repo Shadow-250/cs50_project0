@@ -22,3 +22,8 @@ It contains 4 html pages and 2 stylesheet files. It is possible to get from any 
 - `.footer` class has `span` that modifies the text in the footer contained in all span nested in `.footer` class (SCSS nesting)
 
 **index.html**
+
+- Contains a banner type image. Each `.html` files contains a different one.
+- Uses Bootstrap `.container` and `.navbar` classes
+- Uses two columns to display information. Both columns are mobile-responsive using `@media screen` for screens bellow 600px each columns width is 100% and for screens bellow 992px each columnd width is 50%
+-   
