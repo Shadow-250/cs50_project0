@@ -17,8 +17,8 @@ It contains 4 html pages and 2 stylesheet files. It is possible to get from any 
 
 **variables.scss**
 
-- Contains two variables `$bgcolor and `$color to modify the footer included in all the `.html pages of the site (SCSS variables)
-- Contains a general pattern `%rodape that inherits to the `.footer class (SCSS Inheritance)
-- `.footer class has `span that modifies the text in the footer contained in all span nested in `.footer class (SCSS nesting)
+- Contains two variables `$bgcolor` and `$color` to modify the footer included in all the `.html` pages of the site (SCSS variables)
+- Contains a general pattern `%rodape` that inherits to the `.footer` class (SCSS Inheritance)
+- `.footer` class has `span` that modifies the text in the footer contained in all span nested in `.footer` class (SCSS nesting)
 
 **index.html**
