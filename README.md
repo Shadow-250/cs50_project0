@@ -23,7 +23,7 @@ It contains 4 html pages and 2 stylesheet files. It is possible to get from any 
 
 **index.html**
 
-- Contains a banner type image. Each `.html` files contains a different one.
-- Uses Bootstrap `.container` and `.navbar` classes
-- Uses two columns to display information. Both columns are mobile-responsive using `@media screen` for screens bellow 600px each columns width is 100% and for screens bellow 992px each columnd width is 50%
+- Contains a banner type image. Each `.html` files contains a different one;
+- Uses Bootstrap `.container` and `.navbar` classes;
+- Uses two columns to display information. Both columns are mobile-responsive using `@media screen`. For screens bellow 600px each column width is set to 100% and for screens bellow 992px each columnd width is set to 50%;
 -   
