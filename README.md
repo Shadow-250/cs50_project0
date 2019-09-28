@@ -15,11 +15,11 @@ It contains 4 html pages and 2 stylesheet files. It is possible to get from any 
 3. Includes one mobile-responsive @media query
 4. Includes `:inside` selector to insert an image before an element
 5. Multiple selectors: `element, element`
-6. .Class and #id
+6. `.Class` and `#id`
 
 **variables.scss**
 
-- Contains two variables `$bgcolor` and `$color` to modify the footer included in all the `.html` pages of the site (SCSS variables)
+- Contains two variables `$bgcolor` and `$color` to modify the footer included in all the `.html` pages on the site (SCSS variables)
 - Contains a general pattern `%rodape` that inherits to the `.footer` class (SCSS Inheritance)
 - `.footer` class has `span` that modifies the text in the footer contained in all span nested in `.footer` class (SCSS nesting)
 
@@ -36,13 +36,13 @@ It contains 4 html pages and 2 stylesheet files. It is possible to get from any 
 
 **interests.html**
 
-- Contains two unordered lists with links to sites related to the topic;
-- Each links opens up on a new tab 
-- Contains one image for each topic using `div` classes `col-4` and `col-8`
+- Contains two unordered lists with a few links to sites related to each topic;
+- Each links opens up on a new tab;
+- Contains one image for each topic using `div` Bootstrap classes `col-4` and `col-8`
 
 **records.html**
 
-- Contains a table using Bootstrap's `table` `table-striped` and `thead-dark` according to the colors of the website;
+- Contains a table using Bootstrap's `table` `table-striped` and `thead-dark` with colors according to the website theme;
 
 **gear.html**
 
